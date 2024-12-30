@@ -8,7 +8,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 func main() {
-	uri := "mongodb+srv://manishkandari43:6Azjxsf6zYwTNpGA@golangg.svn8i.mongodb.net/smart inventory retryWrites=true&w=majority&appName=Golangg"
+	uri := "mongodb+srv://manishk:kykrogejankar@golangg.svn8i.mongodb.net/smart inventory retryWrites=true&w=majority&appName=Golangg"
 	clientOptions := options.Client().ApplyURI(uri)
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
